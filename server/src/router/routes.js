@@ -23,8 +23,8 @@ Mercado_Pago.post("/", async (req, res) => {
             })),
 
             back_urls: {
-                success: "http://192.168.0.166:3000//success",
-                failure: "http://192.168.0.166:3000//failure",
+                success: "http://192.168.0.166:3000/success",
+                failure: "http://192.168.0.166:3000/failure",
             },
 
             auto_return: "approved",
